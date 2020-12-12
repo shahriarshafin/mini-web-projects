@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap rel="stylesheet"');
+@import url ('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro:wght@600&display=swap rel="stylesheet"');
+
+
+ /* Google font */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+  } 
+  
+  
+  /* Body Sizing*/
+html,body{
+    width: 100%;
+    height: 100%;
+    margin:  0;
+    padding: 0; 
+    display:block;
+	background-size: contain;
+}
+
+/* Cover image*/
+.bg-img {
+  background-image: url("bg-img.jpeg");
+  min-height: 725px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+  /* Navigation bar */
+  nav{
+  display: flex;
+  height: 100px;
+  width: 100%;
+  background: rgba(26,24,24,.80);
+  
+  align-items: center;
+  justify-content: space-between;    /*spacing sector*/
+  padding: 0 50px 0 55px;
+  flex-wrap: wrap;
+  position:absolute;
+  
+}
+
+
+ /* Navigation position */
+nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+
+ /* Navigation items */
+nav ul li a{
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 8px 15px;
+  letter-spacing: 1px;
+  /* transition: all 0.3s ease; */
+  }
+
+
+/* Navigation hover*/
+nav ul li a:hover{
+	
+	background-color:#FFEC9E;
+	color:black;
+	
+}
+
+
+  /* Logo */
+nav .logo{
+  color: #fff;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+
+/* Dropdown type*/
+.dropdown {
+  float: center;
+  overflow: hidden;
+}
+
+
+/* Dropdown type*/
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(26,24,24,.80);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+ 
+}
+
+
+/* Dropdown items*/
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 15px 10px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  
+}
+
+/*Hover Dropdown*/
+.dropdown-content a:hover {      
+  background-color: #FFEC9E;
+}
+
+/*Hover Dropdown Type*/
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/*Contents*/
+.content {
+	
+    padding: 315px 150px 0 120px;
+	line-height: 1.6;
+   
+}
+
+
+/*Welcome to most...*/
+.property p{
+	
+	font-size: 30px;
+	font-weight: 700;
+	color:white;
+	font-style: normal;
+	align: center;
+}
+
+
+/*UAP*/
+.property h1{
+	
+	font-size: 52px;
+	font-weight: 500;
+	color:white;
+	font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-style: normal;
+	padding: 10px 0px 10px 100px;	
+	align: center;
+}
+
+
+/*Pera Khabo*/
+.button1 {
+text-decoration: none;
+  color: white; 
+  border: 3px solid white;
+  font-size: 25px;
+  font-style:normal;
+  font-weight: 700;
+  padding: 10px 45px;
+}
+.button1:hover{
+	background-color: #EB4134;
+}
+
+/*Pera Khabo na */
+.button2 {
+  text-decoration: none;
+  color: white; 
+  border: 3px solid white;
+  font-size: 25px;
+  font-style:normal;
+  font-weight: 700;
+  padding: 10px 45px;
+}
+.button2:hover{
+	background-color: #EB4134;
+}
+
+#section1 {
+  height: 670px;
+  background-color: white;
+  padding-top: 30px;
+  
+}
+
+
+.a{
+  width: 100%; overflow: hidden;
+  margin-top: 70px;
+  
+}
+.b{
+  width: 500px; float: left;
+  padding-left: 150px;
+}
+
+.c{
+  margin-left: 620px;
+}
+
+.button {
+  border: none;
+  padding: 6px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 12px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: #D39A63; 
+
+  
+} 
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.goru{
+  margin-top: 20px;
+}
