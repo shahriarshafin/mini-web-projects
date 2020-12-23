@@ -2,6 +2,9 @@
 https://shahriarshafin.me/freewebtemplates.github.io/ 
 - You can view live of the templates.
 - some are not covered all page.
+- This repository is created for practice purpose. 
+- You can use these templates if you need to.
+
 ### License
 Copyright (c) 2020 Shahriar Shafin
 
