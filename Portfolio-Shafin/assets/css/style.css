@@ -1,7 +1,11 @@
+/* ---------------------------------- */
+/*  ©Copyright-SHAHRIAR SHAFIN
+/*  https://github.com/ShahriarShafin */
+/* -----------------------------------*/
+
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,900");
 
 /* ........DEFAULT CSS.........*/
-
 body {
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
@@ -55,24 +59,18 @@ a:hover {
     transition: 0.5s;
     position: relative;
 }
-
-
 /* ..........END DEFAULT CSS.............  */
 
 
 /* ..........REUSEABLE CSS...............  */
-
 .container {
     padding-right: 20px;
     padding-left: 20px;
 }
-
-
 /* ..........END REUSEABLE CSS............  */
 
 
 /* ...............SIDEBAR.................  */
-
 #sidebar {
     width: 23%;
     position: fixed;
@@ -165,13 +163,10 @@ a:hover {
     font-size: 12px;
     color: #fff;
 }
-
-
 /* .........End SIDEBAR..........*/
 
 
 /*..........Home INTRO..........*/
-
 #intro-area {
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/bg.jpg')no-repeat center;
     background-size: cover;
@@ -201,13 +196,10 @@ a:hover {
     text-decoration: underline;
     text-decoration-color: aqua;
 }
-
-
 /* ..........End HOME INTRO........  */
 
 
 /* ...........ABOUT CSS............  */
-
 #about-us {
     padding-top: 70px;
     padding-bottom: 60px;
@@ -277,5 +269,4 @@ hr.dash {
     color: rgb(0, 0, 0);
     font-size: 14px;
 }
-
 /* ......END ABOUT CSS.........  */
