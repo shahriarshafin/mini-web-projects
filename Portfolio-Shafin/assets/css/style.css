@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,900");
 
-/* Default CSS*/
+/* ........DEFAULT CSS.........*/
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -47,6 +47,32 @@ a:hover {
     transition: 1s;
 }
 
+#main-part {
+    width: 77%;
+    float: right;
+    -webkit-transition: 0.5s;
+    -o-transition: 0, 5s;
+    transition: 0.5s;
+    position: relative;
+}
+
+
+/* ..........END DEFAULT CSS.............  */
+
+
+/* ..........REUSEABLE CSS...............  */
+
+.container {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+/* ..........END REUSEABLE CSS............  */
+
+
+/* ...............SIDEBAR.................  */
+
 #sidebar {
     width: 23%;
     position: fixed;
@@ -63,33 +89,13 @@ a:hover {
     padding: 10px 30px 30px 30px;
 }
 
-#main-part {
-    width: 77%;
-    float: right;
-    -webkit-transition: 0.5s;
-    -o-transition: 0, 5s;
-    transition: 0.5s;
-    position: relative;
-}
-
-
-/* End Default CSS*/
-
-.container {
-    padding-right: 20px;
-    padding-left: 20px;
-}
-
-
-/* sidebar  */
-
-.sidebar-title {
+.sidebar-section {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 20px;
 }
 
-.sidebar-title-img {
+.sidebar-img-area {
     display: block;
     margin: 0 auto;
     width: 120px;
@@ -100,14 +106,40 @@ a:hover {
     margin-bottom: 20px;
 }
 
-.sidebar-title-img img {
+.sidebar-img-area img {
     border-radius: 50%;
 }
 
-.sidebar-title-texs {
+.sidebar-section-texts {
     font-size: 22px;
     font-weight: 600;
     color: #fff;
+}
+
+.social-intro {
+    padding-top: 10px;
+}
+
+.social-intro ul li {
+    display: inline-block;
+}
+
+.social-intro i {
+    color: #fff;
+    font-size: 14px;
+    background: rgba(255, 255, 255, 0.021);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    line-height: 30px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.social-intro i:hover {
+    color: #333;
+    background: #fff;
+    transition: 1s;
 }
 
 .menu ul li {
@@ -135,7 +167,10 @@ a:hover {
 }
 
 
-/* sidebar  */
+/* .........End SIDEBAR..........*/
+
+
+/*..........Home INTRO..........*/
 
 #intro-area {
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/bg.jpg')no-repeat center;
@@ -167,39 +202,32 @@ a:hover {
     text-decoration-color: aqua;
 }
 
-.social-intro {
-    padding-top: 10px;
-}
 
-.social-intro ul li {
-    display: inline-block;
-}
-
-.social-intro i {
-    color: #fff;
-    font-size: 14px;
-    background: rgba(255, 255, 255, 0.021);
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-    line-height: 30px;
-    margin-right: 0px;
-    margin-left: 0px;
-}
-
-.social-intro i:hover {
-    color: #333;
-    background: #fff;
-    transition: 1s;
-}
+/* ..........End HOME INTRO........  */
 
 
-/* about css  */
+/* ...........ABOUT CSS............  */
 
 #about-us {
     padding-top: 70px;
     padding-bottom: 60px;
     background-color: rgb(255, 255, 255);
+}
+
+.about-us-title p:nth-child(1) {
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(20, 44, 75);
+}
+
+hr.dash {
+    width: 5%;
+    border: 2px solid rgb(0, 81, 255);
+}
+
+.about-us-title p:nth-child(2) {
+    font-size: 14px;
+    margin-top: -5px;
 }
 
 .about-us-img {
@@ -210,25 +238,8 @@ a:hover {
     width: 100%;
 }
 
-.about-us-text {
+.about-us-right {
     padding-left: 30px;
-}
-
-.about-us-title p:nth-child(1) {
-    font-size: 30px;
-    font-weight: 700;
-}
-
-.about-us-title p:nth-child(2) {
-    font-size: 14px;
-    margin-top: -5px;
-}
-
-.about-us-explanation p {
-    padding-top: 25px;
-    text-align: justify;
-    color: rgb(0, 0, 0);
-    font-size: 14px;
 }
 
 .about-us-information {
@@ -244,13 +255,11 @@ a:hover {
     position: absolute;
     line-height: 30px;
     text-align: center;
+    color: rgb(0, 119, 255);
 }
 
 .about-us-information-detail p {
     padding-left: 30px;
-}
-
-.about-us-information-detail p:nth-child(2) {
     font-weight: 500;
     text-transform: uppercase;
 }
@@ -262,14 +271,11 @@ a:hover {
     text-transform: none;
 }
 
-
-/* end about css  */
-
-hr.dash {
-    width: 5%;
-    border: 2px solid rgb(0, 81, 255);
+.about-us-explanation p {
+    padding-top: 25px;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
 }
 
-.clr {
-    color: rgb(20, 44, 75);
-}
+/* ......END ABOUT CSS.........  */
