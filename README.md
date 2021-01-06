@@ -1,5 +1,5 @@
 ## Get Free Web Templates
-https://shahriarshafin.me/freewebtemplates.github.io/ 
+https://freewebtemplates.shahriarshafin.me
 - You can view live of the templates.
 - some are not covered all page.
 - This repository is created for practice purpose. 
