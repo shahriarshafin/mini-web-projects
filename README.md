@@ -6,6 +6,7 @@ http://freewebtemplates.shahriarshafin.me
 - You can use these templates if you need to.
 
 ### License
+```
 Copyright (c) 2020 Shahriar Shafin
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
