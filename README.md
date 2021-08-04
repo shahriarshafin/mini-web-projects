@@ -2,3 +2,4 @@
 Here are some mini web projects using HTML, CSS, JS, Bootstrap I did while learning web designing
 - not covered all page.
 - created for practice purpose.
+- Live : https://shahriarshafin.me/mini-web-projects/
