@@ -1,5 +1,5 @@
 # Mini Web Projects
-Here are some mini web projects using HTML, CSS, JS, Bootstrap I did while learning web designing
+Here are some mini web projects using HTML, CSS, JS, Bootstrap I practiced when I was newbie on Frontend Development.
 - not covered all page.
-- created for practice purpose.
-- Live : https://shahriarshafin.me/mini-web-projects/
+- for practice purpose.
+- Live : http://shahriarshafin.github.io/mini-web-projects/
